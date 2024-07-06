@@ -54,7 +54,7 @@ featureCounts_results.csv is the file to be used in R**.
 * The eleventh step would already be the DE analysis in my case I use own scripts in R.
 
 # Notes
-The aim is to use an easy code to automatize the pre-processing using the tools quoted before (fastQC,sortmerna,trimmomatic,STAR,and subread, multiQC) using your own pre-compiled STAR genomes included in the corresponding folder. I prefer to have them in "/usr/local/bin/STAR_GENOMES/", but you can adapt the code accordingly.<br/>
+The aim is to use an easy code to automatize the pre-processing using the tools quoted before (fastQC,sortmerna,trimmomatic,STAR, subread and multiQC) using your own pre-compiled STAR genomes included in the corresponding folder. I prefer to have them in "/usr/local/bin/STAR_GENOMES/", but you can adapt the code accordingly.<br/>
 Good point is that as the steps are executed in paired end files, you can check the progress despite you did not complete the pre-processing. At least you can supervise the evolution of the process if you are impatient. Besides, if the process crashes for some reason you can control where it failed, so can move the last paired files from the "original_files" folder to the upper level and re-launch, keeping all the other processed files correctly stored. Of course you will have to detete the intermediate files that are stored as I do not move the files to destination until the process is complete. <br/>
 Sometimes the SWAP is increasingly filled from time to time. There is a reminder during the process to indicate at least once a day to empty the  SWAP memory.
-Some good practices is to keep in mind the path length. The script take this into account, and if the paht plus the file names are longer than 255 characters, the process will exit.
+Some good practices is to keep in mind the path length. The script take this into account, and if the path plus the file names are longer than 255 characters, the process will exit.
