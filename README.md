@@ -4,10 +4,10 @@ Complete pipeline to pre-process RNAseq paired end set of files from scratch wor
 This script combines python and bash tools with the aim to get a final csv with counts of reads against a reference genome. In this example I have precompiled with STAR the genome for five different plant species I work more frequently.
 
 # Prerequisites
-There are some specific programs not instaled by default but here you have minor instructions you can use to include without further problems with your sudo privileges in some specific cases.
+There are some specific programs not instaled by default but here you have minor instructions some specific cases.
 
 1) You must have installed fastQC: pip install sequana-fastqc
-2) You must have cutadapt installed: sudo apt-get install cutadapt
+2) You must have cutadapt installed: pip install install cutadapt
 3) You must have installed sortmerna (more information here): https://github.com/sortmerna/sortmerna
 4) You must have installed trimmomatic (http://archive.ubuntu.com/ubuntu/pool/universe/t/trimmomatic/trimmomatic_0.39+dfsg-1_all.deb)
 5) You must have star installed (more information here): https://github.com/alexdobin/STAR
