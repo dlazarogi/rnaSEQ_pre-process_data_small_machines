@@ -11,7 +11,7 @@ There are some specific programs not instaled by default but here you have minor
 3) You must have installed sortmerna (more information here): https://github.com/sortmerna/sortmerna
 4) You must have installed trimmomatic (http://archive.ubuntu.com/ubuntu/pool/universe/t/trimmomatic/trimmomatic_0.39+dfsg-1_all.deb)
 5) You must have star installed (more information here): https://github.com/alexdobin/STAR
-6) You must have subread installed in order to use featureCounts more information here): https://github.com/ShiLab-Bioinformatics/subread
+6) You must have subread installed in order to use featureCounts (more information here): https://github.com/ShiLab-Bioinformatics/subread
 merge-paired-reads.sh and unmerge-paired-reads.sh currently in folder with data (linked to /usr/share/sormerna/scripts)<br />
 To generate the database indexes for sortmerna (directly copy the fasta files to the rRNA_databases folder and then generate the indexes)
 $ indexdb_rna --ref ./silva-bac-16s-id90.fasta,./silva-bac-16s-id90-db:./silva-bac-23s-id98.fasta,./silva-bac-23s- id98-db:./silva-arc-16s-id95.fasta,./silva-arc-16s-id95-db:./silva-arc-23s-id98.fasta,./silva-arc-23s-id98- db:./silva-euk-18s-id95.fasta,./silva-euk-18s-id95-db:./silva-euk-28s-id98.fasta,./silva-euk-28s-id98-db:. /rfam-5s-database-id98.fasta,./rfam-5s-database-id98-db:./rfam-5.8s-database-id98.fasta,./rfam-5.8s-database-id98-db: <br />
